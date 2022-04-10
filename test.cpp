@@ -38,7 +38,7 @@ int32_t main()
             }
         });
 
-        // say hello and then sleep for 10 seconds to allow some data to be RXed...
+        // say hello and then sleep for 30 seconds to allow some data to be RXed...
         //
         serialPort.printLine("Hello World!");
         serialPort.print("Please type some text: ");
